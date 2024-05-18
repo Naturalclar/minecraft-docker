@@ -5,6 +5,13 @@
 ````sh
 docker build -t minecraft .
 
+
+for ARM cpu
+
+```
+docker build -t minecraft --platform linux/amd64 .
+```
+
 ## create volume
 
 ```sh
